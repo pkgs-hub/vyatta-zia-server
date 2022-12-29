@@ -1,0 +1,2 @@
+help: Show zia-server status
+run: systemctl status zia-server

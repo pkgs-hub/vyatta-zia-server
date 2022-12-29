@@ -1,0 +1,9 @@
+[Unit]
+Description=ZIA Server
+
+[Service]
+EnvironmentFile=/etc/default/zia-server
+ExecStart=/opt/vyatta-zia-server/zia-server
+
+[Install]
+WantedBy=multi-user.target

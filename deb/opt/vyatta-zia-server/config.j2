@@ -1,0 +1,3 @@
+ZIA_LISTEN_ADDR={{ data["listen-address"] | default("0.0.0.0") }}:{{ data["port"] | default("8080") }}
+ZIA_UPSTREAM={{ data["upstream"]["address"] }}:{{ data["upstream"]["port"] }}
+ZIA_MODE={{ data["mode"] | default("WS") }}

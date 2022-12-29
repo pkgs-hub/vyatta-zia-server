@@ -1,0 +1,6 @@
+type: txt
+help: ZIA mode (default: WS)
+val_help: ws; Listen protocol WS (default)
+val_help: tcp; Listen protocol TCP
+allowed: echo "ws tcp"
+syntax:expression: exec "${vyos_libexec_dir}/validate-value --regex \'^(ws|tcp)$\'   --value \'$VAR(@)\'"; "Invalid value"

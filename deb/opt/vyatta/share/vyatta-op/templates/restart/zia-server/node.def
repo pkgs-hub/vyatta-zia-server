@@ -1,0 +1,2 @@
+help: Restart zia-server
+run: sudo systemctl restart zia-server

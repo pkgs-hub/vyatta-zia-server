@@ -1,0 +1,2 @@
+help: Show zia-server logs
+run: journalctl -u zia-server | less

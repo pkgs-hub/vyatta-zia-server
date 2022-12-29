@@ -1,0 +1,2 @@
+chmod +x /opt/vyatta-zia-server/config.py
+systemctl daemon-reload
