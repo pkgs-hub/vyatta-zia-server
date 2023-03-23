@@ -1,5 +1,5 @@
 Package: vyatta-zia-server
-Version: 0.2.5
+Version: 0.2.8
 Architecture: amd64
 Maintainer: pkgs-hub <https://github.com/pkgs-hub>
 Description: zia-server for vyatta
